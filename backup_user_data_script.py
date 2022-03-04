@@ -1,6 +1,7 @@
 #windows 7 backup data script testing
 
 import os
+from webbrowser import get
 
 
 #os.mkdir('C:\Users\inapoli\Desktop\test')
@@ -10,4 +11,6 @@ def get_userName():
     print("Hello ", userName)
     return userName
 
+print("Hello")
+get_userName()
 
