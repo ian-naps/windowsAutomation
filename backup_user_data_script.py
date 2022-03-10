@@ -5,6 +5,9 @@ from webbrowser import selenium
 
 
 #os.mkdir('C:\Users\inapoli\Desktop\test')
+
+#obtain username
+
 def get_userName():
     print("Please enter the user name to be transferred:\n")
     userName = input()
@@ -14,3 +17,9 @@ def get_userName():
 print("Hello")
 get_userName()
 
+#copy files to network drive
+
+
+#copy chrome, internet explorer, edge, and mozilla firefox bookmarks to network drive
+
+#copy 
